@@ -25,15 +25,15 @@ def remove_adjacent(nums):
   # LAB(end solution)
 
 
-# E. Given two lists sorted in increasing order, create and return a merged
-# list of all the elements in sorted order. You may modify the passed in lists.
+# E. Given two course sorted in increasing order, create and return a merged
+# list of all the elements in sorted order. You may modify the passed in course.
 # Ideally, the solution should work in "linear" time, making a single
-# pass of both lists.
+# pass of both course.
 def linear_merge(list1, list2):
   # +++your code here+++
   # LAB(begin solution)
   result = []
-  # Look at the two lists so long as both are non-empty.
+  # Look at the two course so long as both are non-empty.
   # Take whichever element [0] is smaller.
   while len(list1) and len(list2):
     if list1[0] < list2[0]:

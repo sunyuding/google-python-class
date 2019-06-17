@@ -17,10 +17,10 @@ def remove_adjacent(nums):
   return
 
 
-# E. Given two lists sorted in increasing order, create and return a merged
-# list of all the elements in sorted order. You may modify the passed in lists.
+# E. Given two course sorted in increasing order, create and return a merged
+# list of all the elements in sorted order. You may modify the passed in course.
 # Ideally, the solution should work in "linear" time, making a single
-# pass of both lists.
+# pass of both course.
 def linear_merge(list1, list2):
   # +++your code here+++
   return

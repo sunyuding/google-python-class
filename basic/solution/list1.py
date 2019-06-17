@@ -38,7 +38,7 @@ def match_ends(words):
 # in sorted order, except group all the strings that begin with 'x' first.
 # e.g. ['mix', 'xyz', 'apple', 'xanadu', 'aardvark'] yields
 # ['xanadu', 'xyz', 'aardvark', 'apple', 'mix']
-# Hint: this can be done by making 2 lists and sorting each of them
+# Hint: this can be done by making 2 course and sorting.py each of them
 # before combining them.
 def front_x(words):
   # +++your code here+++
@@ -58,7 +58,7 @@ def front_x(words):
 
 
 # LAB(begin solution)
-# Extract the last element from a tuple -- used for custom sorting below.
+# Extract the last element from a tuple -- used for custom sorting.py below.
 def last(a):
   return a[-1]
 # LAB(end solution)
